@@ -1,0 +1,10 @@
+title Personal To Do List
+
+MainClass->ListModel: Starts Program
+ListModel->ListModel: Retrieve previous list if any
+loop Controller Loop
+ListModel->ListController: Sets current List
+ListController->ListView: Update view with current List
+ListView->ListController: notifies of user changes
+ListController->ListModel: updates model's data if actual changes took place
+end

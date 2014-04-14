@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+
+    <display-name>MyEclipse Hello World Examples</display-name>
+    <description>
+      Hello World type examples using Eclipse for: JSP, Java Beans, Servlets
+    </description>
+
+    <!-- Define servlets that are included in the example application -->
+
+    <servlet>
+        <servlet-name>apaddock-dmendes2-projectServlet</servlet-name>
+        <servlet-class>cop4331.apaddock-dmendes2-projectServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>apaddock-dmendes2-projectServlet</servlet-name>
+        <url-pattern>/servlet/apaddock-dmendes2-projectServlet</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
